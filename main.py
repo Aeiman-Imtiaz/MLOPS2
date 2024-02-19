@@ -26,5 +26,5 @@ if __name__ == "__main__":
     mlops_class.enrollStudents(10)
     print(f"Total Strength: {mlops_class.getTotalStrength()}")
     print(f"Class Name: {mlops_class.getClassName()}")
-    mlops_class.dropStudents(5)
+    mlops_class.dropStudents(6)
     print(f"Total Strength after dropping 5 students: {mlops_class.getTotalStrength()}")
