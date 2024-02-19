@@ -5,11 +5,11 @@ name: Run Tests
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   test:
-    runs-on: windows-latest 
+    runs-on: ubuntu-latest 
 
     steps:
     - name: Checkout code
